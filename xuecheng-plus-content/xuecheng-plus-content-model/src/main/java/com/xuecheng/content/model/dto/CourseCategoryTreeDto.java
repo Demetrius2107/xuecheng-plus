@@ -1,7 +1,16 @@
 package com.xuecheng.content.model.dto;
 
+import com.xuecheng.content.model.po.CourseCategory;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
-public class CourseCategoryTreeDto {
-    List<CourseCategoryTreeDto> childrenTreeNodes;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CourseCategoryTreeDto  extends CourseCategory {
+    List childrenTreeNodes;
 }
