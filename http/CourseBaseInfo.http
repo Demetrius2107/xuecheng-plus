@@ -1,0 +1,22 @@
+#### 新增课程
+POST http://localhost:8601/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程tmp",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "这是一门测试课程",
+  "charge": "201000",
+  "price": 99,
+  "originalPrice": 999,
+  "qq": "123564",
+  "wechat": "123654",
+  "phone": "156213",
+  "validDays": 365
+}
